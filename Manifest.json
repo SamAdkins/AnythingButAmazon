@@ -1,0 +1,13 @@
+{
+    "name": "Anything But Amazon",
+    "version": "1.0.0",
+    "description": "Removes Amazon from the internet",
+    "manifest_version": 3,
+    "author": "Sam Adkins",
+    "action":{},
+    "permissions": ["activeTab", "scripting", "webRequest"], 
+    "host_permissions": ["*://*.google.com/*"],
+    "background": {
+        "service_worker": "aba.js"
+    }
+}
